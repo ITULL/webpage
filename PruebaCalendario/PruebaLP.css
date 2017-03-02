@@ -1,0 +1,76 @@
+.enlaces_sup {
+    width: 100%;
+    height: 40px;
+    background-color: red;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+button {
+     border: none;
+     background-color: transparent;
+}
+.encabezado {
+    width: 100%;
+    background-color: yellow;
+}
+
+.encabezado img {
+    width: 30%;
+    height: 30%;
+    max-width: 250px;
+    max-height: 150px;
+    margin: 0 50px;
+}
+
+.encabezado * {
+    display: inline-block;
+}
+
+.encabezado h1 {
+    font-size: 120px;
+}
+
+.cuerpo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+}
+
+.cuerpo > div {
+    display: inline-block;
+}
+
+.descripcion {
+    width: 50%;
+    margin-right: 3%;
+    background-color: green;
+}
+
+/* Calendario */
+.calendario {
+    width: 35%;
+    background-color: lightblue;
+}
+
+.day {
+    border: 1px solid black;
+    padding: 5px;
+    width: 14.28%;
+    height: 16.6%;
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 15px;
+    color: black;
+}
+
+.titsem > div {
+    font-size: 12px;
+    text-align: center;
+}
+
+.semanas {
+    margin-top: 5px;
+}
